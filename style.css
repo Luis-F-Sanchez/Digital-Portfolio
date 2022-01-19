@@ -1,5 +1,65 @@
 /* CSS files add styling rules to your content */
 
-h1 {
-  color: green;
+.body-txt {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 250px;
+}
+
+nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  min-height: 8vh;
+  background-color: green;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-around;
+  width: 30%;
+  list-style: none;
+}
+
+.nav a {
+  color: white;
+  text-decoration: none;
+}
+
+/* .name {
+  display: flex;
+  justify-content: space-around;
+  background-color: blue;
+} */
+
+.about {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  justify-content: space-around;
+}
+.pic {
+  width: 20%;
+}
+
+.bannertext {
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+}
+.bannerimg {
+  
+  background-image: url("https://cdn.glitch.me/eb772232-50a6-466f-976e-3b4f58bbb98f%2F20210801_225624.jpg?v=1634854985076");
+  /* Set a specific height */
+  height: 50%;
+
+  /* Position and center the image to scale nicely on all screens */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
 }
