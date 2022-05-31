@@ -46,3 +46,25 @@ p {
   color: white;
 }
 
+.cenDisplay {
+  text-align: center;
+  margin: auto;
+  padding: 15px;
+}
+
+.links{
+  display:flex; 
+  justify-content:center
+}
+
+.cenIMG{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 40%;
+}
+
+.template{
+  background-color: white;
+  margin: 10%;
+}
