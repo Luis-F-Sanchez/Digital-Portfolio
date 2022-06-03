@@ -28,10 +28,24 @@ nav {
 }
 .pic {
   width: 20%;
+  margin: 5%;
+}
+
+.intro {
+  margin-left: 5%;
+}
+
+.me {
+    margin-left: 7%;
+}
+
+.box {
+  background-color: black;
+  padding: 2%;
 }
 
 body {
-  background-color: black;
+  background-color: #1a001e;
 }
 
 h1 {
@@ -52,19 +66,30 @@ p {
   padding: 15px;
 }
 
-.links{
-  display:flex; 
-  justify-content:center
+.links {
+  display: flex;
+  justify-content: center;
 }
 
-.cenIMG{
+.cenIMG {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  width: 40%;
+  width: 65%;
 }
 
-.template{
+.template {
   background-color: white;
-  margin: 10%;
+  margin: 9%;
+  padding: 3%;
+  border: 8px ridge purple;
 }
+
+.template p {
+  color: black;
+}
+
+.resume {
+  width: 50%;
+}
+

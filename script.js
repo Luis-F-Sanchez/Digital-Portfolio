@@ -4,4 +4,15 @@
 // prints "hi" in the browser's dev tools console
 console.log("hi");
 
+// $("a").mouseenter(function() {
+//   $(".tabs").css("background-color","black");
+// });
 
+// $("a").mouseleave(function() {
+//     $(".tabs").css("background-color","purple");
+// });
+
+// $(".input").hover(function() {
+//       $(".tabs").css("background-color","purple");
+
+// });
